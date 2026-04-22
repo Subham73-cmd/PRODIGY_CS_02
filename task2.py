@@ -21,8 +21,8 @@ def decrypt_image(input_path, output_path, key):
             pixels[i, j]=decrypted_pixel
     img.save(output_path)
     print("Image Decrypted Successfully!!!")
-input_image=r"C:\Users\USER\Desktop\Prodigy Infotech Internship\image.jpeg"
-encrypted_image=r"C:\Users\USER\Desktop\Prodigy Infotech Internship\decrypted_image.jpeg"
-decrypted_image=r"C:\Users\USER\Desktop\Prodigy Infotech Internship\encrypted_image.jpeg"
+input_image=r"file path of image jpeg"
+encrypted_image=r"file path of decrypted image"
+decrypted_image=r"file path of encrypted image"
 encrypt_image(input_image, encrypted_image, key=None)
 decrypt_image(encrypted_image, decrypted_image, key=None)
